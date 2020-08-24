@@ -5,6 +5,6 @@ files:
     destination: /home/ec2-user/python_demo
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: install_dependencies.sh
       timeout: 300
       runas: root
